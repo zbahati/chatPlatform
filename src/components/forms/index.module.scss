@@ -13,4 +13,9 @@ form {
         justify-content: center;
         align-items: center;
     }
+
+    button:hover{
+        background: rgb(3, 3, 129);
+        cursor: pointer;
+    }
 }
