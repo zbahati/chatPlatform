@@ -1,0 +1,16 @@
+form {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    gap: 20px;
+
+    .formFieldRow {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
