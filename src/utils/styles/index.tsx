@@ -36,3 +36,40 @@ export const Button = styled.button `
     font-size: 16px;
     border-radius: 8px;
 `;
+
+export const Page = styled.div `
+height: 100vh;
+`;
+
+export const ConversationSideBarStyle = styled.aside`
+    height: 100%;
+    width: 350px;
+    background: #1f1f1f;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    & header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 10px;
+        & h1 {
+        color: white;
+        }
+    }
+`;
+
+export const ConversationChannelPageStyle = styled.main`
+    height: 100%;
+    margin-left: 360px;
+`;
+
+
+export const DefaultConversationPageStyle = styled.div`
+    height: 100%;
+    margin-left: 350px;
+`;
+
+
