@@ -1,6 +1,6 @@
 import { RegisterForm } from "../components/forms/RegisterForm"
 
-export const AuthenticationPage =()=>{
+export const RegisterPage =()=>{
 
     return (
         <div>

@@ -5,13 +5,19 @@ form {
     flex-direction: column;
     height: 90vh;
     justify-content: center;
-    gap: 20px;
+    gap: 12px;
 
     .formFieldRow {
         display: flex;
         gap: 10px;
         justify-content: center;
         align-items: center;
+    }
+
+    span{
+        color: brown;
+        font-size: 12px;
+        padding: 4px;
     }
 
     button:hover{
