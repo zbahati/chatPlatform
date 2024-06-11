@@ -14,14 +14,24 @@ form {
         align-items: center;
     }
 
-    span{
+    .spanMessage{
         color: brown;
         font-size: 12px;
         padding: 4px;
     }
 
+
     button:hover{
         background: rgb(3, 3, 129);
         cursor: pointer;
+    }
+
+    .existingUser {
+        color: white;
+    }
+
+    .loginLink{
+        padding: 0 10px;
+        color: white;
     }
 }
